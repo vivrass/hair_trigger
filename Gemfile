@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 gem "activerecord", ">=2.3.0"
-gem 'ruby_parser', '2.0.6'
+gem 'ruby_parser', '>=2.0.6'
 gem 'ruby2ruby', '1.2.5'
 group :development do
   gem "rspec", "~> 2.3.0"
