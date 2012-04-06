@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jon Jensen"]
-  s.date = "2012-04-04"
+  s.date = "2012-04-06"
   s.description = "allows you to declare database triggers in ruby in your models, and then generate appropriate migrations as they change"
   s.email = "jenseng@gmail.com"
   s.extra_rdoc_files = [
@@ -20,10 +20,12 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "hairtrigger.gemspec",
     "init.rb",
     "lib/hair_trigger.rb",
     "lib/hair_trigger/adapter.rb",
@@ -56,7 +58,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<ruby_parser>, ["= 2.0.6"])
       s.add_runtime_dependency(%q<ruby2ruby>, ["= 1.2.5"])
       s.add_development_dependency(%q<rspec>, ["~> 2.3.0"])
-      s.add_development_dependency(%q<bundler>, [">= 0"])
+      s.add_development_dependency(%q<bundler>, [">= 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.1"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
       s.add_development_dependency(%q<mysql>, [">= 2.8.1"])
@@ -71,7 +73,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<ruby_parser>, ["= 2.0.6"])
       s.add_dependency(%q<ruby2ruby>, ["= 1.2.5"])
       s.add_dependency(%q<rspec>, ["~> 2.3.0"])
-      s.add_dependency(%q<bundler>, [">= 0"])
+      s.add_dependency(%q<bundler>, [">= 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.6.1"])
       s.add_dependency(%q<rcov>, [">= 0"])
       s.add_dependency(%q<mysql>, [">= 2.8.1"])
@@ -87,7 +89,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<ruby_parser>, ["= 2.0.6"])
     s.add_dependency(%q<ruby2ruby>, ["= 1.2.5"])
     s.add_dependency(%q<rspec>, ["~> 2.3.0"])
-    s.add_dependency(%q<bundler>, [">= 0"])
+    s.add_dependency(%q<bundler>, [">= 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.6.1"])
     s.add_dependency(%q<rcov>, [">= 0"])
     s.add_dependency(%q<mysql>, [">= 2.8.1"])
